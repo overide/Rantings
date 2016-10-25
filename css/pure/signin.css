@@ -1,0 +1,98 @@
+/*
+-----------------------------------
+CSS:signin                         |
+Please don't fuck up with this file| 
+-----------------------------------
+*/
+
+
+
+*{
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+body
+{
+	background-color:rgba(0,0,0,0.25);
+}
+.fields
+{
+	padding:6px 12px ;
+	width:260px;
+	height:34px;
+	font-size:14px;
+	border-radius: 0px;
+	border:1px solid transparent;
+	transition:border;
+	transition-timing-function:ease;
+	transition-duration:0.25s;
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+.fields:focus
+{
+    border:1px solid #1ABC9C;
+    outline: 0px none;
+   /* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075), 0px 0px 8px rgba(102, 175, 233, 0.6);*/
+    z-index: 2;
+}
+
+#signin
+{
+	padding:10px;
+	width:260px;
+	border-radius:0px;
+	border:none;
+	display:block;
+	background:#1ABC9C;
+	color:white;
+	transition:background;
+	transition-timing-function:ease;
+	transition-duration:1s;
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+#signin:hover
+{
+	background:#16A085;
+}
+
+.container
+{
+	width:350px;
+	height:350px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:13%;
+    background-color: rgb(237, 239, 241);
+    border-radius: 6px 6px 6px 6px;
+
+}
+form
+{
+	width:280px;
+	height:250px;
+	margin-right: auto;
+	margin-left: auto;
+	position:relative;
+	top:50px;
+}
+a.lostpass
+{
+    display: block;
+    font-size: 13px;
+    color: rgb(191, 201, 202);
+    text-align: center;
+    text-decoration:none;
+    transition-name:color;
+    transition-timing-function:ease;
+	transition-duration:0.25s;
+}
+a.lostpass:hover
+{
+	color:#1ABC9C;
+}

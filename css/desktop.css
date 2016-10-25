@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2015, 3:20:48 PM
+    Author     : MeChY
+*/
+        /* For desktop: */
+               *{
+				    box-sizing: border-box;
+				}
+
+		
+		#container
+		{
+	background-image: url(../images/img20.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height:100%;
+	left: 2px;
+	top: 0px;
+
+		}	
+		#top
+		{
+	font-size: 88px;
+	text-shadow: 3px 3px 5px #242424;
+	font-family: pier sans;
+	letter-spacing: 14PX;
+	color: White;
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 13%;
+	text-align: center;
+			
+		}
+		#top2
+		{
+			font-size:25px;
+			text-shadow:3px 3px 5px #242424;
+			font-family:amazone bt;
+			letter-spacing:normal;
+			color:White;
+			text-align:center;
+			word-break:keep-all;
+			width:100%;
+			margin-top:-5%;
+			
+		}
+		#menu{
+			text-align:center;
+			margin-top:3%;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		.ghostb
+		{
+			border:1px solid white;
+			background-color:transparent;
+			color:white;
+			width:150px;
+			height:40px;
+			border-radius:0.5em;
+			font-family:BrowalliaUPC;
+			font-size:16px;
+			opacity:1;
+			font-weight:bold;
+			transition:background-color,color,font-weight;
+			opacity:0.9;
+			display:inline;	
+			margin:4px 15px 0px 15px;		
+			
+		}
+		button:hover
+		{
+			background-color:white;
+			color:#000000;
+		}
+		a
+		{
+			text-decoration: none;
+		}
+
+		#overlay1
+		{
+		    position:fixed;
+		    z-index: 100;
+		    top:0px;
+		    left:0px;
+		    height:100%;
+		    width:100%;
+		    background-color:rgba(0,0,0,0.5);
+		    display:none;
+		}
+		#overlay2
+		{
+		    position:fixed;
+		    z-index: 100;
+		    top:0px;
+		    left:0px;
+		    height:100%;
+		    width:100%;
+		    background-color:rgba(0,0,0,0.5);
+		    display:none;
+		}
+		/*#block
+		{
+			border-radius: 1em;
+		    position:fixed;
+		    height:400px;
+		    width:400px;
+		    min-width:350px;
+		    min-height:350px;
+		    top:12%;
+		    left:35%;
+		    background-color:#ffffff;
+		}*/
+
